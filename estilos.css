@@ -1,8 +1,9 @@
 body{
-    background-color: white;
+    background-color: whitesmoke;
 }
 
-.titulo{
-    background-color: rgb(231, 126, 126);
-    
+.libro a la mano {
+    font-size: 26px;
+    font-weight: 800;
+    background-color: salmon;
 }
