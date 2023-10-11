@@ -1,8 +1,39 @@
-@import url('https://fonts.googleapis.com/css2? family= Oswald:wght@400;500;600;700 & display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap');
+
+*{ margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+
+}
 
 
 body{
     background-color: whitesmoke;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Playfair Display', serif;
 }
 
+.header {
+
+    display: flex;
+    align-items: center;
+    height: 70vh;
+    min-height: 700px;
+}
+
+.container {
+  
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.menu{
+    position: absolute;
+    top: 10px;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+}
