@@ -36,4 +36,44 @@ body{
     right: 0;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+}
+
+.libroalamano {
+    font-weight: 700;
+    font-size: 23px;
+    color: mediumvioletred;
+    text-transform: uppercase;
+}
+
+.menu .nav ul li{
+   position: relative;
+   float: left;
+}
+
+.menu .nav ul li a {
+    font-size: 17px;
+    font-weight: 600;
+    padding: 20px;
+    color: gray;
+    display: block;
+    text-transform: uppercase;
+}
+
+.menu .nav ul li a:hover{
+
+    color: mediumvioletred;
+}
+
+#menu {
+   display: none;
+}
+
+.icono.menu {
+    width: 25px;
+}
+
+.menu label{
+    cursor: pointer;
+    display: none;
 }
