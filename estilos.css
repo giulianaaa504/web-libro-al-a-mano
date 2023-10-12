@@ -77,3 +77,24 @@ body{
     cursor: pointer;
     display: none;
 }
+
+.contenido{
+     margin-top: 99px;
+     display: flex;
+     padding: 50px;
+     background-color: rgb(188, 226, 226);
+     border-radius: 30px; 
+}
+
+.header-txt {
+    width: 50%;
+}
+
+.header-txt h1 {
+     font-size: 50px;
+     line-height: 70px;
+     color: black;
+     text-transform: capitalize;
+     font-weight: 800;
+     margin-bottom: 25px;
+}
