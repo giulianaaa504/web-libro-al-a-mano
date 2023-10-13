@@ -41,7 +41,9 @@ body{
 
 .libroalamano {
     font-weight: 700;
-    font-size: 23px;
+    margin: 3%;
+    margin-right: 40px;
+    font-size: 27px;
     color: mediumvioletred;
     text-transform: uppercase;
 }
@@ -54,8 +56,9 @@ body{
 .menu .nav ul li a {
     font-size: 17px;
     font-weight: 600;
-    padding: 20px;
-    color: gray;
+    padding: 15px;
+    margin-left: 5px;
+    color: rgb(16, 16, 65);
     display: block;
     text-transform: uppercase;
 }
@@ -69,10 +72,10 @@ body{
    display: none;
 }
 
-.icono.menu {
-    width: 25px;
+.icono.logo {
+    width: 30px;
 }
-
+ 
 .menu label{
     cursor: pointer;
     display: none;
@@ -80,8 +83,9 @@ body{
 
 .contenido{
      margin-top: 99px;
+     margin: 3%;
      display: flex;
-     padding: 50px;
+     padding: 30px;
      background-color: rgb(188, 226, 226);
      border-radius: 30px; 
 }
@@ -91,10 +95,125 @@ body{
 }
 
 .header-txt h1 {
-     font-size: 50px;
+     font-size: 45px;
      line-height: 70px;
-     color: black;
+     color: rgb(4, 8, 39);
      text-transform: capitalize;
      font-weight: 800;
      margin-bottom: 25px;
 }
+
+.header-txt p {
+
+    font-size:18px;
+    color: black; 
+    margin-bottom: 40px;
+    
+}
+
+.btn-1{
+    display: inline-block;
+    margin-right: 40px;
+    margin-top: 30px;
+    padding: 13px 25px;
+    background-color: mediumvioletred;
+    font-size: 19px;
+    color: white;
+    border-radius: 30px;
+    text-transform: capitalize;
+    box-shadow: 0 0 15px rgba(0,  0, 0, 0.4)
+}
+
+.btn-1 :hover{
+    background-color: mediumvioletred}
+
+    .header-img{
+        width: 47%;
+        text-align: right;
+    }
+
+    .header-img img{
+        width: 400px;
+    }
+
+    .general{
+        padding: 100px 0;
+        display: flex ;
+    }
+
+
+    .general-1{
+
+        padding: 40px; 
+        display: flex;
+    }
+
+.general-t{
+    padding: 40px;
+    text-align: center;
+    margin: 10 10px;
+    border-radius: 30px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+
+}
+
+.general-t:hover{
+    background-color: rgb(245, 144, 245);
+}
+
+.general-t img{
+    width: 130px;
+    margin-bottom: 30px;
+}
+
+.general-t h2{
+    font-size: 18px;
+    color: rgb(20, 20, 44);
+    margin-bottom: 15px 
+}
+
+.general-t p{
+    font-size: 13px;
+    color: rgb(0, 0, 0)
+}
+
+.general-2{
+
+    width: 30%;
+    margin: 0 35px;
+}
+
+.general-2 h2{
+    font-size: 50px;
+    line-height: 60p;
+    color: rgb(31, 31, 80);
+    margin-bottom: 20px;
+    margin-top: 70px;
+}
+
+.general-3{
+
+    padding: 40px; 
+    display: flex;
+}
+
+.general-3{
+
+width: 30%;
+margin: 0 35px;
+}
+
+.general-4 h2{
+font-size: 50px;
+line-height: 60px;
+color: rgb(31, 31, 80);
+margin-bottom: 20px;
+margin-top: 70px;
+}
+
+
+
+
+
+
+
