@@ -211,6 +211,21 @@ margin-bottom: 20px;
 margin-top: 70px;
 }
 
+.informacion{
+    padding: 100px 0;
+    background-color: floralwhite;
+    text-align: center;
+}
+
+.information-content{
+    margin-top: 70px;
+    display: flex;
+}
+
+.information-1{
+    margin: 0 25px;
+}
+
 
 
 
