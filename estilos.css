@@ -192,27 +192,9 @@ body{
     margin-top: 70px;
 }
 
-.general-3{
 
-    padding: 40px; 
-    display: flex;
-}
 
-.general-3{
-
-width: 30%;
-margin: 0 35px;
-}
-
-.general-4 h2{
-font-size: 50px;
-line-height: 60px;
-color: rgb(31, 31, 80);
-margin-bottom: 20px;
-margin-top: 70px;
-}
-
-.informacion{
+.information{
     padding: 100px 0;
     background-color: floralwhite;
     text-align: center;
@@ -226,6 +208,69 @@ margin-top: 70px;
 .information-1{
     margin: 0 25px;
 }
+
+.information-1 h3{
+    text-transform: capitalize;
+    font-size: 25px;
+    color: rgb(33, 33, 73);
+    margin-bottom: 15px;
+}
+
+.information-1 p{
+    font-size: 16px;
+    color: rgb(90, 90, 90);
+    margin-bottom: 35px;
+}
+
+.btn-2{
+    display: inline-block;
+    padding: 13px 25px;
+    color: rgb(18, 18, 63);
+    font-size: 17px;
+    text-transform: capitalize;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+.btn-2:hover:hover{
+    background-color: rgb(238, 140, 202);
+    color: aliceblue;
+
+}
+
+.footer{
+    padding: 50px 0;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+}
+
+.footer-txt{
+    padding-right: 500px;
+}
+
+.footer-txt p{
+    font-size: 16px;
+    color: rgb(119, 143, 143);
+    margin-top: 25px;
+}
+
+.footer-redessociales{
+display: flex;
+}
+
+.footer-redessociales img{
+    margin: 0 15px;
+    width: 30px;
+    height: 30px;
+}
+
+.footer-txt libroalamano{
+    color: magenta;
+    font-size: 19px;
+}
+
+
 
 
 
