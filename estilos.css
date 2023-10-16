@@ -42,7 +42,7 @@ body{
 .libroalamano {
     font-weight: 700;
     margin: 3%;
-    margin-right: 40px;
+    margin-right: 30px;
     font-size: 27px;
     color: mediumvioletred;
     text-transform: uppercase;
@@ -55,6 +55,7 @@ body{
 
 .menu .nav ul li a {
     font-size: 17px;
+    margin-right: 33px;
     font-weight: 600;
     padding: 15px;
     margin-left: 5px;
