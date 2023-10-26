@@ -37,7 +37,10 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    
 }
+
+
 
 .libroalamano {
     font-weight: 700;
@@ -163,7 +166,7 @@ body{
 }
 
 .general-t img{
-    width: 130px;
+    width: 125px;
     margin-bottom: 30px;
 }
 
@@ -265,10 +268,6 @@ display: flex;
     height: 30px;
 }
 
-.footer-txt libroalamano{
-    color: magenta;
-    font-size: 19px;
-}
 
 
 
