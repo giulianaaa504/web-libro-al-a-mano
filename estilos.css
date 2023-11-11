@@ -78,8 +78,10 @@ body{
 
 .icono.logo {
     width: 30px;
+    float: left;
+   
 }
- 
+
 .menu label{
     cursor: pointer;
     display: none;
@@ -155,6 +157,7 @@ body{
 .general-t{
     padding: 40px;
     text-align: center;
+    margin-right: 10px;
     margin: 10 10px;
     border-radius: 30px;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
@@ -266,6 +269,56 @@ display: flex;
     margin: 0 15px;
     width: 30px;
     height: 30px;
+}
+@media(max-width:991) {
+
+    .menu{
+        padding: 30px;
+    }
+    
+    .menu label{
+        display: initial;
+    }
+
+    .menu .navbar{
+        position: absolute;
+        top: 100%;
+        right: 0;
+        left: 0;
+        background-color: #f0EFEF;
+        display: none;
+    }
+
+    .menu .navbar ul li{
+        width: 100%;
+    }
+
+    #menu:checked ~ .navbar{
+        display: initial;
+    }
+
+    .header{
+        height: 0vh;
+        min-height: 1000px;
+        background-color: #f5F9FC;
+    }
+
+    .contenido{
+        flex-direction: column;
+        padding: 50px 30px 20px 3px;
+        margin: 0;
+    }
+
+    .header-txt{
+        width:100% ;
+        margin-right: 0;
+        text-align: center;
+        margin-bottom: 25px;
+    }
+
+    
+
+
 }
 
 

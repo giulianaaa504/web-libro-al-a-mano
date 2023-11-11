@@ -43,8 +43,7 @@ body{
 }
 
 .message button{
-
-   padding: 1rem;
+    padding: 1rem;
     font-weight: 400;
     background-color: rgb(70, 70, 172);
     border-radius: 2rem;
@@ -57,7 +56,7 @@ body{
     color: #fff;
 }
 
-.message sign-in-btn:hover{
+.message button:hover{
     background-color: #6464f8;
 }
 
@@ -103,4 +102,7 @@ body{
     cursor: pointer;
     color: #222;
 }
+
+
+
 
