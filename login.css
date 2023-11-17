@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 
 *{
 margin: 0;
 padding: 0;
 box-sizing: border-box;
-font-family: 'Playfair Display', serif;
+font-family: 'Poppins', sans-serif;
 }
 
 body{
@@ -104,3 +104,109 @@ body{
     color: #222;
 }
 
+@media(max-width:400px){
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Playfair Display', serif;
+    }
+    
+    body {
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-image: url(fondoinicio1.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: #fff;
+    }
+    
+    .container-form {
+        width: 90%;
+        height: auto;
+        min-height: 90vh; /* Añadido para asegurar altura mínima en dispositivos pequeños */
+        display: flex;
+        flex-direction: column; /* Cambiado para apilar elementos en dispositivos pequeños */
+        align-items: center; /* Centrado vertical en dispositivos pequeños */
+    }
+    
+    .welcome-back {
+        display: flex;
+        flex-direction: column; /* Cambiado para apilar elementos en dispositivos pequeños */
+        align-items: center;
+        text-align: center;
+    }
+    
+    .message {
+        padding: 1rem;
+    }
+    
+    .message h2 {
+        font-size: 1.7rem;
+        padding: 1rem 0;
+    }
+    
+    .message button {
+        padding: 1rem;
+        font-weight: 400;
+        background-color: rgb(70, 70, 172);
+        border-radius: 2rem;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        font-size: .9rem;
+        margin-top: 2rem;
+        transition: all .3s ease-in;
+        color: #fff;
+    }
+    
+    .message button:hover {
+        background-color: #6464f8;
+    }
+    
+    .formulario {
+        width: 90%; /* Cambiado para hacerlo responsive */
+        max-width: 400px; /* Añadido para limitar el ancho máximo en dispositivos grandes */
+        padding: 1rem;
+        margin: 2rem;
+        background-color: rgba(194, 188, 188, 0.603);
+        text-align: center;
+    }
+    
+    .create-account {
+        padding: 2.7rem 0;
+        font-size: 1.7rem;
+    }
+    
+    .cuenta-gratis {
+        padding: 2rem 0;
+    }
+    
+    .formulario input {
+        width: 100%; /* Cambiado para hacerlo responsive */
+        display: block;
+        margin: auto;
+        margin-bottom: 2rem;
+        background-color: transparent;
+        border: none;
+        border-bottom: white thick solid;
+        text-align: center;
+        outline: none;
+        padding: .2rem 0;
+        font-size: .9rem;
+        color: white;
+    }
+    
+    .formulario input[type="submit"] {
+        width: 100%; /* Cambiado para hacerlo responsive */
+        border: solid thin white;
+        font-weight: 600;
+        margin-top: 3rem;
+        font-size: .8rem;
+        cursor: pointer;
+        color: #222;
+    }
+}

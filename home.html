@@ -6,51 +6,79 @@
     <title>pagina de inicio</title>
     <link rel="stylesheet" href="home.css" />
     <link rel="icon" href="logo (1).png">
-    <script src="home.js"></script>
 
 </head>
 <body>
     <header class="header">
-    <div class="logo">libro a la mano</div>
-    <input type="checkbox" id="toggle">
-   
-
-    <nav class="navigation">
-        <ul>
-            <li><a href="">Inicio</a></li>
-
-            <li><a href="">Mis libros</a>
-                <ul>
-                    <li><a href="">Lista de lectura</a></li>
-                    <li><a href="">Mis compras</a></li>
-                </ul>
-            </li>
-            
-    
-            <li><a href="">Sugerencias</a></li>
-                <ul>
-                    <li><a href="">Romance</a></li>
-                    <li><a href="">Comedia</a></li>
-                    <li><a href="">Misterio</a></li>
-                    <li><a href="">Para ti</a></li>
-                </ul>
-            </li>
-
-            <li><a href="">Nombre</a></li>
-                <ul>
-                    <li><a href="">Editar perfil</a></li>
-                    <li><a href="">cerrar sesión</a></li>
-                </ul>
-            </li>
-
+        <div class="child-header">
+          <div class="box-logo">
+            <a href="" class="link-logo">LIBRO A LA MANO</a>
+          </div>
           
-        </ul>
+          <nav class="box-menu-navegacion" id="menu-navegacion">
+            <ul class="menu-navegacion">
+              <li class="item-menu">
+                <a href="#" class="item-menu-link">Inicio</a>
+              </li>
+              
+              
+              <li class="item-menu item-menu-sub-menu">
+                <a href="#" class="item-menu-link">mis libros</a>
+                <i class="fas fa-angle-down angle-view-sub-menu"></i>
+                
+                <ul class="sub-menu" id="sub-menu">
+                  <li class="item-menu">
+                    <a href="#" class="item-menu-link">listas de lectura</a>
+                  </li>
+                  <li class="item-menu">
+                    <a href="#" class="item-menu-link">mis compras</a>
+                  </li>
+                  <li class="item-menu">
+                    <a href="#" class="item-menu-link">Archivo</a>
+                  </li>
+                </ul>
+              </li>
+              
+              <li class="item-menu item-menu-sub-menu">
+                <a href="#" class="item-menu-link">configuracion</a>
+                <i class="fas fa-angle-down angle-view-sub-menu"></i>
+                
+                <ul class="sub-menu" id="sub-menu">
+                  <li class="item-menu">
+                    <a href="#" class="item-menu-link">editar perfil</a>
+                  </li>
+                  <li class="item-menu">
+                    <a href="#" class="item-menu-link">notificaciones </a>
+                  </li>
+                  <li class="item-menu">
+                    <a href="#" class="item-menu-link">idioma</a>
+                  </li>
+                  <li class="item-menu">
+                    <a href="#" class="item-menu-link">Preferencias de contenido</a>
+                  </li>
+                  <li class="item-menu">
+                    <a href="#" class="item-menu-link">Ayuda</a>
+                  </li>
+                </ul>
+              </li>
+              
+              <li class="item-menu">
+                <a href="" class="item-menu-link" id="logout">cerrar sesion</a>
+              </li>
+            </ul>
+          </nav>
+        
+          <button class="btn-hamburguesa" id="btn-hamburguesa">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        
+        </div>
 
-    </nav>
-
-
-    </header>
-    <div class="hero"></div>
+        <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+        <script src="home.js"></script>
+      </header>
     
 </body>
 </html>
