@@ -17,7 +17,7 @@
   ****************************/
   .header {
     width: 100%;
-    background-color: #fff;
+    background-color: #ffffff;
   }
   .header a {
     text-decoration: none;
@@ -125,10 +125,58 @@
   /* hover */
   .item-menu-sub-menu:hover .sub-menu {
     transform: scaley(1);
+
   }
+  .busqueda-content{
+    
+    padding: 150px 150px 0px 0px;
+    max-width: 1100px;
+    margin: 4% auto;
+    background-color: rgb(252, 220, 241);
+    border-radius: 30px ;
+    
+  }
+
   
+  .busqueda-content h1{
+    
+    color: rgb(67, 0, 99);
+    margin-top: auto;
+    margin-left: 10px;
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: 500;
+    line-height: 55px;
+    
+
+  }
+  .busqueda-content p{
+    margin-top: 25px;
+    margin-left: 10px;
+    color: #AAB1FF;
+    text-transform: uppercase;
+    font-size: 35px;
+    line-height: 40px;
+  }
+
   
-  
+
+  .busqueda-content input{
+    width: 240px;
+    margin: 30px;
+    height: 40px;
+    padding: 0 20px ;
+    font-size: 18px;
+    color: black;
+    outline: none;
+    border: 1px solid silver;
+    border-radius: 30px;
+    
+    
+  }
+   
+   
+
   
   @media screen and (max-width: 980px) {
     /* boton hamburguesa
@@ -196,5 +244,23 @@
     .item-menu-link:hover,
     .item-menu-sub-menu:hover i {
       color: initial;
+    }
+    
+    .busqueda-content{
+      padding: 0px;
+      flex-direction: column;
+      text-align: center;
+      align-items: center;
+      padding: 0px 30px;
+    }
+
+    .busqueda-content h1{
+
+      margin-top: 100px;
+      font-size: 45px;
+    }
+
+    .busqueda-content p{
+      margin-top: 0px;
     }
   }
