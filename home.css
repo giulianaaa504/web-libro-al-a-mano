@@ -13,8 +13,7 @@
   
   
   
-  /* header
-  ****************************/
+ 
   .header {
     width: 100%;
     background-color: #ffffff;
@@ -34,8 +33,7 @@
   
   
   
-  /* logo
-  ****************************/
+ 
   .link-logo {
     font-weight: 700;
     color: mediumvioletred;
@@ -44,8 +42,7 @@
   
   
   
-  /* menu de navegacion
-  ****************************/
+  
   .box-menu-navegacion {
     width: 50%;
   }
@@ -81,8 +78,7 @@
   
   
   
-  /* boton hamburguesa
-  ****************************/
+ 
   .btn-hamburguesa {
     display: none;
     background-color: transparent;
@@ -102,9 +98,6 @@
   }
   
   
-  
-  /* sub menu
-  ****************************/
   .item-menu-sub-menu {
     position: relative;
   }
@@ -122,7 +115,7 @@
     padding: .8rem;
   }
   
-  /* hover */
+
   .item-menu-sub-menu:hover .sub-menu {
     transform: scaley(1);
 
@@ -229,21 +222,18 @@ button:hover {
 
   
   @media screen and (max-width: 980px) {
-    /* boton hamburguesa
-    ****************************/
+    
     .btn-hamburguesa {
       display: block;
     }
     
-    /*  header
-    ****************************/
+   
     .header {
       position: relative;
       padding: 1rem 0;
     }
     
-    /*  menu de navegacion
-    ****************************/
+    
     .box-menu-navegacion {
       position: absolute;
       top: 100%;
@@ -284,8 +274,7 @@ button:hover {
     }
     
     
-    /*  activador sub menu
-    ****************************/
+   
     .viewMenu {
       transform: scaley(1);
     }
