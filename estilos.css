@@ -1,5 +1,5 @@
 
-  @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 
 *{ margin: 0;
     padding: 0%;
@@ -12,15 +12,21 @@
 
 body{
     background-color: whitesmoke;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
 }
 
 .header {
 
     display: flex;
     align-items: center;
-    height: 70vh;
-    min-height: 700px;
+    height: 15vh;
+    min-height: 50px;
+    margin-bottom: 0px;
+    background-color: white;
 }
 
 .container {
@@ -75,6 +81,11 @@ body{
 
 #menu {
    display: none;
+
+}
+
+.menu-icono{
+    width: 25px;
 }
 
 
@@ -83,8 +94,10 @@ body{
     display: none;
 }
 
+
 .contenido{
-     margin-top: 99px;
+    margin: top 0;;
+    flex-wrap: wrap;
      margin: 3%;
      display: flex;
      padding: 30px;
@@ -97,7 +110,7 @@ body{
 }
 
 .header-txt h1 {
-     font-size: 45px;
+     font-size: 42px;
      line-height: 70px;
      color: rgb(4, 8, 39);
      text-transform: capitalize;
@@ -107,7 +120,7 @@ body{
 
 .header-txt p {
 
-    font-size:18px;
+    font-size:20px;
     color: black; 
     margin-bottom: 40px;
     
@@ -234,7 +247,7 @@ body{
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
 }
 
-.btn-2:hover:hover{
+.btn-2:hover{
     background-color: rgb(238, 140, 202);
     color: aliceblue;
 
@@ -267,29 +280,150 @@ display: flex;
     height: 30px;
 }
 
-@media screen and (max-width: 980px){
+@media(max-width:991px){
 
-    .header {
-        position: relative;
-        padding: 1rem 0;
-      }
-      
-      /*  menu de navegacion
-      ****************************/
-      .menu.navbar {
+    .libroalamano{
+       
+       margin-right: 0%;
+       text-align: center;
+       top: 0%;
+       right: 0;
+
+    }
+
+
+    .menu{
+    
+        padding: 30px;
+    }
+
+    .menu label{
+        display: initial;
+    }
+
+    .menu .nav{
         position: absolute;
         top: 100%;
+        right: 0;
         left: 0;
-        background-color: #fff;
+        background-color: #F0EFEF;
+        display: none;
+    }
+
+    .menu .nav ul li{
         width: 100%;
-        transform: scaley(0);
-        transform-origin: top;
-        transition: .3s linear;
-        padding: 0 2rem;
-      }
-      .menu-navbar {
+    }
+
+    #menu:checked ~ .nav{
+        display: initial;
+    }
+
+    .contenido{
         flex-direction: column;
-        align-items: flex-start;
-      }
+        padding: 50px 30px 20px 30px;
+        margin: 0;
+        margin-bottom: 42px;
+    }
+
+    .header{
+        min-height: 60px;
+        height: 19vh;
+        margin-bottom: 15px;
+    }
+
+   .general-2 h2.se{
+    margin-top:-1390px ;
+
+   }
+
+    .header-txt{
+        width: 100%;
+        margin-right: 0;
+        text-align: center;
+        margin-bottom: 25px;
+      
+    }
+
+    .header-img{
+        width: 150%;
+        text-align: center;
+    }
+
+    .header-img{
+        width: 100%;
+    }
+
+    .header-txt p {
+
+        font-size:17px;}
+
+    .general{
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .general-1{
+        width: 100%;
+        flex-direction: column;
+        order: 2;
+    }
+
+    .general-2{
+        width: 100%;
+        margin: 0 0 40px;
+        text-align: center;
+    }
+
+    .general-t{
+        margin: 0 0 25px 0;
+        margin-top: 42px;
+    }
+
+    .information{
+        padding: 30px;
+    }
+
+    .information-content{
+        margin-top: 30px;
+        flex-direction: column;
+    }
+    .information-1{
+        text-align: center;
+        margin: 0 0 45px 0;
+    }
+
+    .footer{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer-txt{
+        padding-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .footer-redessociales{
+
+        margin-top: 20px;
+    }
+
 }
 
+
+
+
+  
+
+      
+    
+       
+      
+
+
+    
+
+
+     
+      
+      
